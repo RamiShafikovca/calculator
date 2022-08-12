@@ -1,0 +1,60 @@
+@font-face {
+    font-family: SFPro;
+    src: url(sfpro.otf);
+}
+
+body {
+    font-family: SFPro;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2d2f;
+    border-radius: 1rem;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 1rem;
+}
+
+.square {
+    background-color: #505050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+#zero {
+    flex: 1;
+    border-bottom-left-radius: 1rem;
+}
+
+#equals {
+    border-bottom-right-radius: 1rem;
+}
+
+#ac, #sign, #percent {
+    background-color: #d4d4d2;    
+    color: #000;
+    font-size: 2rem;
+}
+
+.operator {
+    background-color: #fd9e2b;
+}
