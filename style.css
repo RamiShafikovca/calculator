@@ -40,6 +40,10 @@ main {
     height: 5rem;
 }
 
+.square:hover {
+    opacity: 0.7;
+}
+
 #zero {
     flex: 1;
     border-bottom-left-radius: 1rem;
